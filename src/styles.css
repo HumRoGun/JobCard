@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Avatar {
+    width: 100%;
+    display: block;
+}
+
+h1{
+    font-family: 'Taviraj', serif;
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+
+body{
+    font-family: 'K2D', sans-serif;
+}
+
+
+.card{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(5, 5, 5);
+    position: center;
+}
+.card::after{
+    content: "";
+    display: block;
+}
+.skill-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+  
+.skill{
+    padding: 2px 12px;
+    border-radius: 10px;
+    display: inline;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+  }
