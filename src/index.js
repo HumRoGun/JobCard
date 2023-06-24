@@ -41,10 +41,12 @@ function App(){
   return( 
   <div className="card">
     <Avatar />
+    <div className="data">
       <Intro />
       &nbsp;
       <Skilllist />
       &nbsp;
+      </div>
   </div>
   );
 }
